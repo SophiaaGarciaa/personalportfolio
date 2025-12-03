@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sophia Garcia</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
+</head>
+<style>
+    main {
+            background-color: var(--bg-primary);
+        }
+</style>
+<body>
+    <header>
+        <div class="header-left">
+            <a href="index.html" class="name">Sophia Garcia</a>
+            <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+                <span class="theme-toggle-slider"></span>
+            </button>
+        </div>
+        <nav>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>My Projects</h1>
+        <p>A showcase of my recent work in web design, technical communication, and more</p>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="media/UvaldeMovers.png" alt="Uvalde Movers Website" width="100%" height="250">
+                </div>
+                <div class="project-content">
+                    <h3>Uvalde Movers</h3>
+                    <span class="project-tag">Web Design</span>
+                    <p>A fully responsive website for the Uvalde Movers company, providing them with an internet presence and clientele growth. Futhermore, business cards, social media advertisments, and infographic flyers to aid business growth.</p>
+                    <a href="projects/uvalde_movers.html" class="project-link">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="media/zara.png" alt="Zara App Redesign" width="100%" height="250">
+                </div>
+                <div class="project-content">
+                    <h3>Zara App Redesign</h3>
+                    <span class="project-tag">UX Design</span>
+                    <p>An app redesign of Zara, the online fashion retail commerece platform, utilizing user personas and user flows for human-centered design.</p>
+                    <a href="projects/zara_redesign.html" class="project-link">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="media/moodle.jpg" alt="Instructional Moodle Course" width="100%" height="250">
+                </div>
+                <div class="project-content">
+                    <h3>Instructional Moodle Course</h3>
+                    <span class="project-tag">Instructional Design</span>
+                    <p>An interactive online course designed in Moodle for teaching college students how to build and understand their credit score. Features multimedia content, interactive quizzes, discussion forums, and comprehensive learning modules with clear instructional design.</p>
+                    <a href="projects/moodle_course.html" class="project-link">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="media/tagtutor.png" alt="Technical Documentation Project" width="100%" height="250">
+                </div>
+                <div class="project-content">
+                    <h3>Tag Tutor</h3>
+                    <span class="project-tag">Web Design</span>
+                    <p>A fully responsive website created to help students of Intro to Web Design at Texas Tech University learn and study web design. Features study guides and exam help.</p>
+                    <a href="projects/tagtutor.html" class="project-link">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="media/verticalfarming.png" alt="Portfolio Website" width="100%" height="250">
+                </div>
+                <div class="project-content">
+                    <h3>Vertical Farming Usability Report</h3>
+                    <span class="project-tag">UX Research & Technical Writing</span>
+                    <p>A UX approaxh to creating educational content that informs and motivates communities to support vertical farming in urban areas.</p>
+                    <a href="projects/vf_report.html" class="project-link">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="media/interculture.jpg" alt="Content Strategy Project" width="100%" height="250">
+                </div>
+                <div class="project-content">
+                    <h3>Intercultural Communication Analysis Report</h3>
+                    <span class="project-tag">Technical Communication</span>
+                    <p>A research analysis exploring how Gothic fashion and Christianity use cross iconography and examining the cultural significance, historical context, and contemporary interpretations.</p>
+                    <a href="projects/analysis_report.html" class="project-link">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="media/infographic.png" alt="Drunk Driving Infographics" width="100%" height="250">
+                </div>
+                <div class="project-content">
+                    <h3>Drunk Driving Infographics</h3>
+                    <span class="project-tag">Information Design</span>
+                    <p>Two data visualization infographics designed for distinct audiences, demonstrating how design choices, from chart types to color schemes, can be strategically tailored to meet different audience needs and communication goals.</p>
+                    <a href="projects/infographic.html" class="project-link">View Project</a>
+                </div>
+            </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Sophia Garcia</h3>
+                <p>&copy; 2025 All rights reserved.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Site Map</h4>
+                <nav class="footer-nav">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="resume.html">Resume</a>
+                </nav>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <div class="social-links">
+                    <a href="mailto:sophiaagarciaa4@gmail.com">Email</a>
+                    <a href="https://linkedin.com/in/sophiaagarciaa" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/sophiagarcia" target="_blank">GitHub</a>
+                    <a href="https://www.goodreads.com/sophiaagarciaa" target="_blank">Goodreads</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
