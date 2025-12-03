@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Farming UX Case Study - Sophia Garcia</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/script.js"></script>
+</head>
+<style>
+    main {
+            flex: 1;
+            padding-top: 5rem;
+            background-color: var(--bg-primary);
+        }
+</style>
+<body>
+    <header>
+        <div class="header-left">
+            <a href="../index.html" class="name">Sophia Garcia</a>
+            <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+                <span class="theme-toggle-slider"></span>
+            </button>
+        </div>
+        <nav>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+             <ul id="navMenu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../projects.html">Projects</a></li>
+                <li><a href="../resume.html">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <a href="../projects.html" class="back-link">Back to Projects</a>
+        
+        <div class="project-hero">
+            <img src="../media/verticalfarming.png" alt="Vertical Farming UX Case Study">
+        </div>
+
+        <div class="project-content">
+            <div class="case-study-header">
+                <h1>Redesigning Agricultural Education</h1>
+                <p class="case-study-subtitle">A UX Approach to Vertical Farming Awareness Case Study</p>
+                <p class="case-study-byline">Sophia Garcia | UX Researcher & Content Designer</p>
+                <p class="case-study-date">June 2024</p>
+            </div>
+
+            <div class="project-section">
+                <h2>Introduction</h2>
+                <p>The world faces an unprecedented food crisis driven by conflicts in the economy and climate extremes. This leads to an estimated 2.3 billion people lacking access to sufficient, safe, and nutritious food for a healthy life. Seasonal crops prevent consumers from receiving the best-quality produce all year round. However, the adoption of vertical farming in urban areas aims to solve environmental and food security issues.</p>
+                <p>Vertical farming is an indoor farming system that uses artificial development techniques like hydroponics, aquaponics, and other approaches in soilless agriculture. The implementation of vertical farming in urban areas not only presents a sustainable solution to the global food crisis but also opens a host of economic opportunities. This innovative farming system requires less rural land, is less susceptible to pathogen contamination, and could lead to job creation. Furthermore, it offers the potential for year-round production, reduced water usage, and the ability to grow crops closer to the point of consumption.</p>
+            </div>
+
+            <div class="project-section">
+                <h2>The Issue</h2>
+                <p>Vertical farming could solve food security and environmental issues, but public awareness is minimal. Survey data showed that 50% of participants had never heard of vertical farming, and those who had couldn't explain how it works or its benefits.</p>
+                
+                <div class="quote-box">
+                    How could we create educational content that informs and motivates communities to support vertical farming in urban areas?
+                </div>
+            </div>
+
+            <div class="project-section">
+                <h2>User Research: Personas & Journey Maps</h2>
+                
+                <h3>Persona #1: David Martinez</h3>
+                <div class="persona-card">
+                    <div class="persona-header">
+                        <div class="persona-info">
+                            <h4>David Martinez</h4>
+                            <div class="persona-details">
+                                <strong>Age:</strong> 46<br>
+                                <strong>Occupation:</strong> Urban Policymaker<br>
+                                <strong>Education:</strong> Master's degree in urban education<br>
+                                <strong>Salary:</strong> $83,505<br>
+                                <strong>Location:</strong> Austin, Texas
+                            </div>
+                        </div>
+                        <div class="persona-tech">
+                            <h5>Tech Comfort: Moderate</h5>
+                            <ul>
+                                <li>Uses few social media apps</li>
+                                <li>Relies on computers over mobile</li>
+                                <li>Mainly uses tech for work</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="persona-grid">
+                        <div class="persona-section">
+                            <h5>Goals and Motivations</h5>
+                            <p>Address food deserts</p>
+                        </div>
+                        <div class="persona-section">
+                            <h5>Pain Points and Challenges</h5>
+                            <p>Budget constraints, zoning issues</p>
+                        </div>
+                        <div class="persona-section">
+                            <h5>Needs</h5>
+                            <p>Return on Investment (ROI) data</p>
+                        </div>
+                    </div>
+
+                    <div class="journey-map">
+                        <table class="journey-table">
+                            <thead>
+                                <tr>
+                                    <th>Stages</th>
+                                    <th>Awareness</th>
+                                    <th>Research</th>
+                                    <th>Consideration</th>
+                                    <th>Planning</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Actions</strong></td>
+                                    <td>Hears about VF at a meeting. Quick Google search.</td>
+                                    <td>Read numerous articles.</td>
+                                    <td>Discuss with financial advisors. Run cost calculations.</td>
+                                    <td>Create proposal. Set stakeholders meeting.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Thoughts & Feelings</strong></td>
+                                    <td>"Sounds interesting, but is this realistic? This could solve the issues in our food desert areas." Hopeful and curious, but skeptical.</td>
+                                    <td>"This is a lot of information to sift through." Overwhelmed.</td>
+                                    <td>"Is this possible for us financially? Not my area of expertise." Concerned about zoning constraints and financing.</td>
+                                    <td>Motivated. Purpose driven.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Questions</strong></td>
+                                    <td>What is Vertical Farming?</td>
+                                    <td>How many urban areas have implemented VF? How does it work?</td>
+                                    <td>What does it cost? What is the ROI?</td>
+                                    <td>How can I raise support? Where can we find funding for VF?</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="highlight-box">
+                        <h5>Pain Points:</h5>
+                        <p>Information jargon creates immediate confusion for user.</p>
+                    </div>
+
+                    <div class="highlight-box">
+                        <h5>Opportunities:</h5>
+                        <p>Search results could lead to educational video overview of Vertical Farming.</p>
+                    </div>
+                </div>
+
+                <h3>Persona #2: William Davis</h3>
+                <div class="persona-card">
+                    <div class="persona-header">
+                        <div class="persona-info">
+                            <h4>William Davis</h4>
+                            <div class="persona-details">
+                                <strong>Age:</strong> 30<br>
+                                <strong>Occupation:</strong> Entrepreneur<br>
+                                <strong>Education:</strong> Bachelor's degree in entrepreneurship<br>
+                                <strong>Salary:</strong> $70,569<br>
+                                <strong>Location:</strong> Fort Worth, Texas
+                            </div>
+                        </div>
+                        <div class="persona-tech">
+                            <h5>Tech Comfort: High</h5>
+                        </div>
+                    </div>
+
+                    <div class="persona-grid">
+                        <div class="persona-section">
+                            <h5>Goals and Motivations</h5>
+                            <p>Understanding startup costs</p>
+                        </div>
+                        <div class="persona-section">
+                            <h5>Pain Points and Challenges</h5>
+                            <p>Risk assessment</p>
+                        </div>
+                        <div class="persona-section">
+                            <h5>Needs</h5>
+                            <p>Financial projections</p>
+                        </div>
+                    </div>
+
+                    <div class="journey-map">
+                        <table class="journey-table">
+                            <thead>
+                                <tr>
+                                    <th>Stages</th>
+                                    <th>Awareness</th>
+                                    <th>Research</th>
+                                    <th>Consideration</th>
+                                    <th>Planning</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Actions</strong></td>
+                                    <td>Discover vertical farming when listening to a podcast.</td>
+                                    <td>Quick YouTube Search.</td>
+                                    <td>Attempt to calculate the costs. Search for suppliers.</td>
+                                    <td>Contact urban planning department.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Thoughts & Feelings</strong></td>
+                                    <td>"This sounds like a great business idea." Intrigued.</td>
+                                    <td>Confused by the technical jargon.</td>
+                                    <td>Financially concerned. "Can I get the community on board?"</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Questions</strong></td>
+                                    <td>How can I make this into a start up? Is there a market for vertical farms?</td>
+                                    <td></td>
+                                    <td>What would be the startup cost? How can I build this?</td>
+                                    <td>Do I need certifications? Do I need city permission and zoning certificates?</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="highlight-box">
+                        <h5>Pain Points:</h5>
+                        <p>Unsure where to begin in creating a vertical farm. Worried there will be no return on investment.</p>
+                    </div>
+
+                    <div class="highlight-box">
+                        <h5>Opportunities:</h5>
+                        <p>Include supply and cost information for both small and large vertical farms.</p>
+                    </div>
+                </div>
+
+                <h3>Persona #3: Sara Miller</h3>
+                <div class="persona-card">
+                    <div class="persona-header">
+                        <div class="persona-info">
+                            <h4>Sara Miller</h4>
+                            <div class="persona-details">
+                                <strong>Age:</strong> 25<br>
+                                <strong>Occupation:</strong> Elementary School Teacher<br>
+                                <strong>Education:</strong> Bachelor's degree in education<br>
+                                <strong>Salary:</strong> $45,450<br>
+                                <strong>Location:</strong> East Austin, Texas (food desert)<br>
+                                <em>30-minute drive to nearest fresh produce grocery store</em>
+                            </div>
+                        </div>
+                        <div class="persona-tech">
+                            <h5>Tech Comfort: High</h5>
+                            <ul>
+                                <li>Uses many social media apps</li>
+                                <li>Comfortable with online learning</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="persona-grid">
+                        <div class="persona-section">
+                            <h5>Goals and Motivations</h5>
+                            <p>Access to fresh produce, healthy eating, & saving money</p>
+                        </div>
+                        <div class="persona-section">
+                            <h5>Pain Points and Challenges</h5>
+                            <p>Groceries affordability, no current access to fresh produce</p>
+                        </div>
+                        <div class="persona-section">
+                            <h5>Needs</h5>
+                            <p>Clear benefits and affordable food insecurity solution</p>
+                        </div>
+                    </div>
+
+                    <div class="journey-map">
+                        <table class="journey-table">
+                            <thead>
+                                <tr>
+                                    <th>Stages</th>
+                                    <th>Awareness</th>
+                                    <th>Research</th>
+                                    <th>Consideration</th>
+                                    <th>Planning</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Actions</strong></td>
+                                    <td>Sees social media post about VF.</td>
+                                    <td>Find more information on social media posts and videos. Online search.</td>
+                                    <td>Share with parents and school contacts. Discusses with community members on forums.</td>
+                                    <td>Organize a signature petition. Attend city council meeting.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Thoughts & Feelings</strong></td>
+                                    <td>Curious. "This could help my community."</td>
+                                    <td>Confused on technical jargon. Interested but skeptical.</td>
+                                    <td>Concerned for community. "I think this could improve our community. Our children can have access to healthier options."</td>
+                                    <td>Unsure but motivated.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Questions</strong></td>
+                                    <td>What is vertical farming?</td>
+                                    <td>Where can I find comprehensible information? What is hydroponics?</td>
+                                    <td>Would we see an increase in high-income residents? How would that change this community?</td>
+                                    <td>How does this get implemented? Who can I talk to?</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="highlight-box">
+                        <h5>Pain Points:</h5>
+                        <p>Concerned about possible gentrification.</p>
+                    </div>
+
+                    <div class="highlight-box">
+                        <h5>Opportunities:</h5>
+                        <p>Emphasize community benefits: job creation and affordability data.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-section">
+                <h2>UX Approach</h2>
+                <p>After conducting baseline research with user personas and journey maps, I created an instructional script based on the users' pain points, needs, and motivations. The script followed a linear structure of an introduction, definition, types of vertical farming, benefits, drawbacks, outlook, and a conclusion. The script prioritized using plain language to accommodate a variety of users and used a second-person perspective to create a personal connection to the user. The script then underwent usability testing where participants' comprehension level, perceived feasibility, support level, and ability to identify benefits were measured. After the completion of the two-part usability test on the instructional script, I created an instructional video based on the script and the key findings during testing.</p>
+            </div>
+
+            <div class="project-section">
+                <h2>Usability Testing</h2>
+                
+                <h3>Methodology</h3>
+                <p>To test the usability of vertical farming, four applicants answered a survey of twenty-three questions broken down into three sections. Before the survey began, there was a brief definition of vertical farming and the definition of urban, rural, and suburban areas. The initial survey aimed to gauge the user's initial knowledge and support. The second usability test was a survey of twenty-three questions with the same definitions and an instructional script on vertical farming. The second survey is designed to scope how beneficial the instructional script was to the knowledge and support of each user.</p>
+                
+                <p>The study involved collecting demographic data such as age groups and locations to find whether there was any correlation between the support found in geographical locations such as rural, urban, and suburban areas for vertical farming in urban areas. Once the two surveys were conducted and the users had read the instructional script, four post-test questions were distributed after completing the second survey. These questions aim to explore the effectiveness of the technical documents and find ways to improve them.</p>
+
+                <h3>Results</h3>
+                <div class="results-grid">
+                    <div class="result-item">
+                        <div class="result-number">50%</div>
+                        <div class="result-label">Had never heard of vertical farming before</div>
+                    </div>
+                    <div class="result-item">
+                        <div class="result-number">75%</div>
+                        <div class="result-label">Thought vertical farming was "somewhat feasible" after reading</div>
+                    </div>
+                    <div class="result-item">
+                        <div class="result-number">Top 3</div>
+                        <div class="result-label">Benefits: Efficient space use, lower water usage, year-round crops</div>
+                    </div>
+                </div>
+
+                <p>The two-part usability test conducted on four users concluded that a fifty percent split of users were neither familiar with the concept of vertical farming nor somewhat familiar with it. This suggests that due to the little to no coverage of vertical farming, the community, whether rural or urban, is unaware of the concept and benefits of this new agricultural process.</p>
+
+                <p>Once applicants read the instructional scripts, the second survey illustrated an improvement in their knowledge of the benefits and drawbacks of vertical farming. The results reveal that seventy-five percent thought vertical farming would be "somewhat feasible," and the latter thought it was "feasible." The consensus of the group was that vertical farming would be possible in suburban and urban areas, considering set-up costs, zoning, and regulatory issues.</p>
+
+                <p>The results from the post-test gave feedback on how useful the instructional script was in gaining newfound knowledge on vertical farming. The four users' answers concluded that the script's most confusing section was cost effectiveness, as it needed a more straightforward explanation and comparison to rural agriculture. The user's feedback on the script was to add information on the zoning regulations, as it was only stated as an issue rather than explained how it was.</p>
+            </div>
+
+            <div class="project-section">
+                <h2>What I'd Do Differently</h2>
+                <ul>
+                    <li>Conducted usability with a larger sample size</li>
+                    <li>Conduct usability testing on instructional video, not just the script</li>
+                    <li>Use A/B testing for different types of educational pathways</li>
+                </ul>
+            </div>
+
+            <div class="project-section">
+                <h2>Call to Action</h2>
+                <p>Considering the limited information available on this new modern farming method, the instructional script has proven beneficial in informing the public about different aspects of vertical agriculture. A common weakness in the script was the lack of in-depth explanation. Users could get a general idea of vertical farming but could not understand the topic further than the provided information.</p>
+                
+                <p>The users suggested adding more details on the cost and benefit outlook, as these were ranked as two of the most critical factors to agriculture in the test group. Corrections to the technical document have been made to enhance the performance of the instructional script. The methodology used to measure the usability of vertical farming and the instructional script based on the topic generated a well-functioning document and demonstrated its performance through the volunteered test group.</p>
+            </div>
+
+            <div class="project-section">
+                <h2>Skills & Tools Used</h2>
+                <div class="skills-used">
+                    <span class="skill-badge">UX Research</span>
+                    <span class="skill-badge">User Personas</span>
+                    <span class="skill-badge">Journey Mapping</span>
+                    <span class="skill-badge">Usability Testing</span>
+                    <span class="skill-badge">Content Design</span>
+                    <span class="skill-badge">Technical Writing</span>
+                    <span class="skill-badge">Survey Design</span>
+                    <span class="skill-badge">Data Analysis</span>
+                </div>
+            </div>
+
+            <div class="reference-list">
+                <h3>References</h3>
+                <p>Jiang, G. (2023, July 12). Vertical farming – no longer a futuristic concept. <em>Agriculture Research Service: U.S. Department of Agriculture.</em> https://www.ars.usda.gov/oc/utm/vertical-farming-no-longer-a-futuristic-concept/</p>
+                <p>Mead, B. R., Duncombe, T., Gillespie, R., Pugh, N., & Hardman, C. A. (2024). Does urban agriculture contribute to food security, and how might this be achieved? <em>Proceedings of the Nutrition Society</em>, 1–9. doi:10.1017/S0029665124002209</p>
+            </div>
+
+           <div class="project-links">
+                <a href="../media/Vertical Farming UX Case Study.pdf" class="project-button">Download PDF</a>
+            </div> 
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Sophia Garcia</h3>
+                <p>&copy; 2025 All rights reserved.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Site Map</h4>
+                <nav class="footer-nav">
+                    <a href="../index.html">Home</a>
+                    <a href="../about.html">About</a>
+                    <a href="../projects.html">Projects</a>
+                    <a href="../resume.html">Resume</a>
+                </nav>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <div class="social-links">
+                    <a href="mailto:sophiaagarciaa4@gmail.com">Email</a>
+                    <a href="https://linkedin.com/in/sophiaagarciaa" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/sophiagarcia" target="_blank">GitHub</a>
+                    <a href="https://www.goodreads.com/sophiaagarciaa" target="_blank">Goodreads</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

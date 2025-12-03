@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sophia Garcia</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/script.js"></script>
+    <style>
+        main {
+            flex: 1;
+            padding-top: 5rem;
+            background-color: var(--bg-primary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <a href="../index.html" class="name">Sophia Garcia</a>
+            <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+                <span class="theme-toggle-slider"></span>
+            </button>
+        </div>
+        <nav>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="navMenu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../projects.html">Projects</a></li>
+                <li><a href="../resume.html">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <a href="../projects.html" class="back-link">Back to Projects</a>
+        
+        <div class="project-hero">
+            <img src="../media/project-hero.jpg" alt="Project Name Hero Image">
+        </div>
+
+        <div class="project-content">
+            <div class="project-header">
+                <h1>Project Name</h1>
+                <div class="project-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">Role</span>
+                        <span class="meta-value">UX Designer & Developer</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">Timeline</span>
+                        <span class="meta-value">3 Months (Spring 2024)</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">Category</span>
+                        <span class="project-tag">Web Design</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-section">
+                <h2>Overview</h2>
+                <p>A brief summary of the project, its purpose, and what makes it interesting or important. This should capture the reader's attention and give them context for what they're about to read.</p>
+                <p>Include the problem you were trying to solve or the goal you were trying to achieve. Set the stage for the detailed information that follows.</p>
+            </div>
+
+            <div class="project-section">
+                <h2>The Challenge</h2>
+                <p>Describe the specific problem or challenge that needed to be addressed. What was the initial situation? What pain points existed? What were the constraints or limitations you had to work within?</p>
+                <ul>
+                    <li>Challenge point one - describe a specific obstacle</li>
+                    <li>Challenge point two - another key challenge</li>
+                    <li>Challenge point three - additional considerations</li>
+                </ul>
+            </div>
+
+            <div class="project-section">
+                <h2>My Approach</h2>
+                <p>Explain your methodology and process. How did you tackle this project? What steps did you take? This is where you can showcase your problem-solving skills and strategic thinking.</p>
+                
+                <h3>Research & Planning</h3>
+                <p>Detail any research you conducted, stakeholders you interviewed, competitors you analyzed, or planning you did before diving into the work.</p>
+
+                <h3>Design & Development</h3>
+                <p>Walk through your design or development process. What tools did you use? What iterations did you go through? Include insights about key decisions you made.</p>
+
+                <h3>Testing & Refinement</h3>
+                <p>Describe how you tested your solution and what refinements you made based on feedback or testing results.</p>
+            </div>
+
+            <div class="project-section">
+                <h2>Project Gallery</h2>
+                <p>Visual documentation of the project showing key screens, features, or deliverables.</p>
+                <div class="image-gallery">
+                    <div class="gallery-item">
+                        <img src="../media/gallery-1.jpg" alt="Gallery Image 1">
+                        <div class="gallery-caption">Caption describing this image</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../media/gallery-2.jpg" alt="Gallery Image 2">
+                        <div class="gallery-caption">Caption describing this image</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../media/gallery-3.jpg" alt="Gallery Image 3">
+                        <div class="gallery-caption">Caption describing this image</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-section">
+                <h2>Results & Impact</h2>
+                <p>Share the outcomes of your project. What was achieved? Include any metrics, feedback, or tangible results that demonstrate the success of your work.</p>
+                <ul>
+                    <li>Specific measurable result (e.g., "Increased user engagement by 40%")</li>
+                    <li>Qualitative outcome (e.g., "Received positive feedback from stakeholders")</li>
+                    <li>Long-term impact (e.g., "Solution is still in use and serving 500+ users")</li>
+                </ul>
+            </div>
+
+            <div class="project-section">
+                <h2>Key Learnings</h2>
+                <p>Reflect on what you learned from this project. What would you do differently next time? What skills did you develop? This shows growth mindset and self-awareness.</p>
+            </div>
+
+            <div class="project-section">
+                <h2>Skills & Tools Used</h2>
+                <div class="skills-used">
+                    <span class="skill-badge">HTML</span>
+                    <span class="skill-badge">CSS</span>
+                    <span class="skill-badge">JavaScript</span>
+                    <span class="skill-badge">Figma</span>
+                    <span class="skill-badge">User Research</span>
+                    <span class="skill-badge">Wireframing</span>
+                    <span class="skill-badge">Prototyping</span>
+                </div>
+            </div>
+
+            <div class="project-links">
+                <a href="#" class="project-button">View Live Site</a>
+                <a href="#" class="project-button secondary">View on GitHub</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Sophia Garcia</h3>
+                <p>&copy; 2025 All rights reserved.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Site Map</h4>
+                <nav class="footer-nav">
+                    <a href="../index.html">Home</a>
+                    <a href="../about.html">About</a>
+                    <a href="../projects.html">Projects</a>
+                    <a href="../resume.html">Resume</a>
+                </nav>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <div class="social-links">
+                    <a href="mailto:sophiaagarciaa4@gmail.com">Email</a>
+                    <a href="https://linkedin.com/in/sophiaagarciaa" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/sophiagarcia" target="_blank">GitHub</a>
+                    <a href="https://www.goodreads.com/sophiaagarciaa" target="_blank">Goodreads</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
